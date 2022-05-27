@@ -9,7 +9,7 @@ header{
     display:flex;
     justify-content: space-between;
     padding:20px 60px;
-    position:sticky;
+    position:fixed;
     top:0;
     width:100%;
     background:white;
@@ -53,11 +53,8 @@ nav{
 main img{
     width:285px;
 }
-.photosBox{
-    margin-top:60px;
-}
 .talktoUs{
-    background-image:url(/laranja\ azul\ recorte.png);
+    background-image:url(/Images/laranja\ azul\ recorte.png);
     height:80vh;
     background-size: cover;
     padding-top:150px;
@@ -73,16 +70,53 @@ main img{
     color:white;
     margin-bottom:40px;
 }
-.containerPhotos-1,.containerPhotos-2,.containerPhotos-3{
-    display:flex;
+.photosBox{
+    margin:0 auto;
+    margin-top:60px;
     width:87.5%;
-    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:13px;
+}
+footer{
+    background:rgb(243, 243, 243);
+    display:flex;
+    padding:30px 40px;
+    align-items: center;
+}
+footer nav{
+    width:30%;
+}
+.social-media{
+    display:flex;
     justify-content: space-evenly;
 }
-.containerPhotos-2,.containerPhotos-3{
-    margin-top:10px;
+footer img{
+    width:28px;
 }
-
+.facebook-icon{
+    width:13.5px;
+}
+.youtube-icon{
+    width:33px;
+}
+.copyright-div{
+    width:500px;
+    margin-left:2%;
+}
+.copyright{
+    font-weight:700;
+    font-size:0.9rem;
+    margin-left:5%;
+}
+.copyrightText{
+    font-size:0.7rem;
+    font-weight: 300;
+}
+button{
+    display:none;
+}
 @media(max-width:670px){
     header nav{
         display:none;
