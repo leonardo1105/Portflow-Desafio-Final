@@ -187,7 +187,6 @@ button a{
     }
     footer nav{
         width:97%;
-        min-width:290px;
     }
     button{
         display:flex;
