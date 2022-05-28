@@ -207,6 +207,7 @@ button a{
         margin-top:20px;
         margin-left:1.5%;
         width:50%;
+        max-width:220px;
     }
 }
 @media(max-width:370px){
