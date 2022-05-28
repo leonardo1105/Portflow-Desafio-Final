@@ -216,6 +216,8 @@ button a{
 @media(max-width:350px){
     footer{
         padding:30px 20px;
+    }
+    .copyright-div{
         max-width:220px;
     }
 }
