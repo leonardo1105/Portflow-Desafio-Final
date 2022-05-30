@@ -205,7 +205,12 @@ button a{
         align-items:flex-start;
         margin-top:20px;
         margin-left:1.5%;
-        width:50%;
+    }
+}
+@media(max-width:420px){
+    .copyrightText{
+        width:200px;
+        font-size:0.6rem;
     }
 }
 @media(max-width:370px){
@@ -216,9 +221,6 @@ button a{
 @media(max-width:350px){
     footer{
         padding:30px 20px;
-    }
-    .copyright-div{
-        max-width:220px;
     }
 }
 @media(max-width:320px){
